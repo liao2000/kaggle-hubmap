@@ -33,7 +33,7 @@ python data_preparation_01_02.py
 2. train  
 ```
 cd src/02_train
-python train_02.py
+python run_and_train.py
 ```
 
 3. pseudo-label generation  
@@ -77,5 +77,5 @@ python data_preparation_pseudo_label_04_08.py
 6. train with kaggle train + pseudo-labeled data  
 ```
 cd src/05_train_with_pseudo_labels
-python train_05.py
+python run_and_train.py
 ```
