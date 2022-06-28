@@ -132,7 +132,6 @@ class DecodeBlock(nn.Module):
         return x
 
 class DecodeBlockLikeSEResNeXtV1(nn.Module):
-    # 基於 v1 調整參數量
     def __init__(self, in_channel, out_channel, upsample=False):
         super().__init__()
         self.mid_channel = out_channel*2
